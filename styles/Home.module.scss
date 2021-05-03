@@ -1,0 +1,198 @@
+
+.container {
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.main {
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.name {
+  font-size: 1.5em;
+  cursor: pointer;
+  transition: all 0.5s ease-in;
+  overflow: hidden;
+  cursor: pointer;
+
+  &:after {
+    content: '';
+  display: block;
+  width: 0;
+  height: 0.08em;
+  background: pink;
+  transition: width .3s;
+  }
+
+  &:hover::after {
+    width: 100%;
+  }
+}
+
+.menu {
+  display: flex;
+}
+
+.contact {
+  margin-left: 15px;
+  transition: all 0.5s ease-in;
+  overflow: hidden;
+  cursor: pointer;
+
+  &:after {
+    content: '';
+  display: block;
+  width: 0;
+  height: 0.08em;
+  background: pink;
+  transition: width .3s;
+  }
+
+  &:hover::after {
+    width: 100%;
+  }
+}
+
+.exp {
+  transition: all 0.5s ease-in;
+  overflow: hidden;
+  cursor: pointer;
+
+  &:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0.08em;
+    background: pink;
+    transition: width .3s;
+  }
+
+  &:hover::after {
+    width: 100%;
+  }
+}
+
+.skills {
+  transition: all 0.5s ease-in;
+  overflow: hidden;
+  cursor: pointer;
+  margin-right: 15px;
+
+  &:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0.08em;
+    background: pink;
+    transition: width .3s;
+  }
+
+  &:hover::after {
+    width: 100%;
+  }
+}
+.projects {
+  transition: all 0.5s ease-in;
+  overflow: hidden;
+  cursor: pointer;
+  margin-right: 15px;
+
+  &:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0.08em;
+    background: pink;
+    transition: width .3s;
+  }
+
+  &:hover::after {
+    width: 100%;
+  }
+}
+
+.banner { 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title {
+  color: white;
+  font-size: 3em;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 1%;
+}
+
+.buttons {
+  width: 170px;
+  height: 50px;
+  color: #181824;
+  font-size: 1.2em;
+  border-radius: 5px;
+  padding: 10px 25px;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+  background: #ffc0cb;
+  border: none;
+  z-index: 1;
+
+  &:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #7272aa;
+    border-radius: 5px;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.3s ease;
+  }
+
+  &:hover {
+    color: #fff;
+  }
+
+  &:hover:after {
+    left: 0;
+    width: 100%;
+  }
+
+  &:active {
+    top: 2px;
+  }
+
+}
+

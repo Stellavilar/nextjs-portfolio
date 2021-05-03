@@ -1,0 +1,57 @@
+.container {
+    height: 90%;
+    width: 75%;
+    border-radius: 8px;
+    margin:auto;
+
+    .skills {
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .tech_skills {
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      b {
+        text-decoration: underline;
+      }
+
+    }
+
+    h2 {
+      text-align: center;
+      color: #e0dede;
+      margin-bottom: 50px;
+      font-size: 1.8em;
+    }
+}
+
+.bar {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  
+  span {
+      color: #fff
+  }
+
+  .progress_div {
+      background-color: #e0dede;
+      border-radius: .5rem;
+  
+      .progress {
+          background-color: #7272aa;
+          height: 10px;
+          border-radius: 1rem;
+          transition: 1s ease;
+          transition-delay: 1s;
+      }
+  }
+}

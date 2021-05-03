@@ -1,0 +1,39 @@
+.container {
+    background-color: #fff;
+    // height: 90%;
+    width: 25%;
+    border-radius: 8px;
+    margin:auto;
+
+    h2 {
+    text-align: center;
+    color: #181824;
+    margin-bottom: 50px;
+    font-size: 1.8em;
+    }
+
+    .icons {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 30px;
+
+        p {
+            font-size: 3em;
+        }
+
+        button {
+            padding:10px;
+            font-family: 'Poppins', sans-serif;
+            color: white;
+            background-color: #181824;
+            border-radius: 5px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #fff;
+                color: #181824;
+            }
+        }
+    }
+}

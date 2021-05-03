@@ -1,0 +1,77 @@
+export const projects = [
+    {
+        id: 1,
+        name: "Sav-connect",
+        href: "https://stellavilar.github.io/sav-connect-client/#/",
+        img: "/savconnect-comp.png",
+        title: "Plateforme de gestion de service après-vente pour un atelier de réparation",
+        description: "Sav-connect permet de gérer la prise en charge d'appareils en panne et de créer, répertorier, suivre et mettre à jour les interventions, les devis, etc. C\'est une application développée au sein d\'un groupe de 4 développeurs. Mon rôle fut Lead Dev Front.",
+        stack1: "React",
+        stack2: "React-Hooks",
+        stack3: "Semantic UI",
+        stack4: "SASS",
+        stack5: "Node JS",
+        stack6: "Express JS",
+        stack7: "PostgreSQL",
+        stack8: "Axios"
+
+    },
+    {
+        id: 2,
+        name: "Funny Quiz",
+        href: "https://stellavilar.github.io/funny-quiz-client/#/",
+        img: "/funnyquiz-comp.png",
+        title: "Quizz interactif pour tous les âges",
+        description: "Funny Quizz est une application que j'ai développé seule, afin de parfaire mes compétences en SQL et ReactJS. Ce jeu regroupe des questions et réponses que j'ai récupéré via des fichiers SQL disponibles sur le site OpenQuizzDb.com.",
+        stack1: "React",
+        stack2: "React-Hooks",
+        stack3: "Semantic UI",
+        stack4: "SASS",
+        stack5: "Node JS",
+        stack6: "Express JS",
+        stack7: "PostgreSQL",
+        stack8: "Axios"
+
+    },
+    {
+        id: 3,
+        name: "Football results",
+        href: "https://stellavilar.github.io/football-results/#/",
+        img: "/football-comp.png",
+        title: "Actualité footballistique",
+        description: "Passionnée de football, j'ai réalisé une application regroupant tous les résultats, calendriers et meilleurs buteurs des 5 grands championnats Européens. ",
+        stack1: "React",
+        stack2: "Redux",
+        stack3: "Material UI",
+        stack4: "Node JS",
+        stack5: "Express JS",
+        stack6: "Serverless",
+        stack4: "AWS API Gateway",
+
+    },
+    {
+        id: 4,
+        name: "To Do List Application",
+        href: "https://stellavilar.github.io/ToDoList-React-Redux/",
+        img: "/todo (1).png",
+        title: "Liste de choses à faire",
+        description: "",
+        stack1: "React",
+        stack2: "Redux",
+        stack3: "Material UI",
+        stack4: "SASS",
+
+    },
+    {
+        id: 5,
+        name: "React Messaging Application",
+        href: "https://github.com/Stellavilar/React-Messaging-App",
+        img: "/messaging.png",
+        title: "Réplique de l'application WhatsApp",
+        description: "",
+        stack1: "React",
+        stack2: "React-Bootstrap",
+        stack3: "Socket.io",
+    
+    },
+]

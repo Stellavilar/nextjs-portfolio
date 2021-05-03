@@ -1,0 +1,61 @@
+.container {
+    background-color: #fff;
+    height: 90%;
+    width: 75%;
+    border-radius: 8px;
+    margin:auto;
+
+    .carousel {
+        height: 100%;
+        width: 85%;
+        margin:auto;
+    }
+
+    .slide {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        height: 100%;
+        
+        .img{
+            width: 50%;
+            height: 100%;
+            cursor: pointer;
+        }
+        .project_text {
+            display: flex;
+            flex-direction: column;
+            padding-left: 10px;
+            width: 50%;
+            height: 100%;
+
+            h2 { 
+                text-decoration: underline;
+            }
+            li {
+                list-style-type: "\2714"; // emoji sign
+            }
+
+        }
+       
+    } 
+  //About component
+    h2 {
+      text-align: center;
+      color: #181824;
+      margin-bottom: 50px;
+      font-size: 1.8em;
+    }
+
+    .about {
+      margin: auto;
+      text-align: justify;
+      width: 50%;
+      p {
+        text-align: justify;
+      }
+    }
+}
+
+
+
