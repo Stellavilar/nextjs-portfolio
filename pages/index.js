@@ -6,6 +6,8 @@ import Main from './components/Main';
 import Skills from './components/Skills';
 import About from './components/About';
 import Contact from './components/Contact';
+import { faEnvelope, faTools, faUserTie, faDesktop } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 export default function Home() {
@@ -53,8 +55,8 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Stella Vilar - Développeur Fullstack Javascript</title>
-        <meta name="description" content="Developpeur fullstack javascript " />
+        <title>Stella Vilar - Développeur web Fullstack Javascript</title>
+        <meta name="description" content="Developpeur web fullstack javascript " />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -77,12 +79,12 @@ export default function Home() {
       </main>
 
       <footer>
-        {/* { openProject || openSkills || openExp ? null : 
         <div className={styles.footer}>
-          <button className={styles.buttons} onClick={onClickProjects}>Projets</button>
-          <button className={styles.buttons} onClick={onClickSkills}>Compétences</button>
-        </div> 
-        } */}
+          <FontAwesomeIcon icon={faDesktop} style={{ width: '25px'}} onClick={onClickProjects}/>
+          <FontAwesomeIcon icon={faTools} style={{ width: '25px'}} onClick={onClickSkills}/>
+          <FontAwesomeIcon icon={faUserTie} style={{ width: '25px'}} onClick={onClickAbout}/>
+          <FontAwesomeIcon icon={faEnvelope} style={{ width: '25px'}} onClick={onClickContact}/>
+        </div>
       </footer>
     </div>
   );

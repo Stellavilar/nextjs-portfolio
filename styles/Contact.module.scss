@@ -1,3 +1,4 @@
+/*Desktop version*/
 .container {
     background-color: #fff;
     // height: 90%;
@@ -33,6 +34,34 @@
             &:hover {
                 background-color: #fff;
                 color: #181824;
+            }
+        }
+    }
+}
+
+/*Mobile version*/
+@media screen and (max-width : 768px) {
+
+    .container {
+        width: 90%;
+
+        .icons {
+
+            img {
+                width: 25px;
+            }
+
+            p {
+                font-size: 2em;
+            }
+
+            button {
+                padding:5px;
+                font-family: 'Poppins', sans-serif;
+                color: white;
+                background-color: #181824;
+                border-radius: 5px;
+        
             }
         }
     }

@@ -25,7 +25,7 @@ export default function Skills() {
     </div>
 
     return (
-        <div className={styles.container}>
+        <div className={styles.bars}>
             <h2>Compétences techniques</h2>
             <div className={styles.skills}>
                 { data.map((s, i) => (
@@ -37,6 +37,5 @@ export default function Skills() {
                 <h4> <b>Versioning:</b> Git, Github</h4>
             </div>
         </div>
-       
     );
 };

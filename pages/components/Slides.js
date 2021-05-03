@@ -5,7 +5,7 @@ import Image from 'next/image';
 export default function Slides({projects}) {
     return (
         <div className={styles.carousel}>
-            <div className={styles.slide}  style={{'height' : '650px'}}>
+            <div className={styles.slide}  style={{'height' : '750px'}}>
                 <div className={styles.img}>
                     <a href={projects.href} target="blank">
                         <Image src={projects.img} width={900} height={900}/>
